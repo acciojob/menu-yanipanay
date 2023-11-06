@@ -10,3 +10,40 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+    padding: 40px 170px;
+}
+
+.card{
+    display: flex;
+    width: 550px;
+    gap:10px;
+}
+
+.image{
+    min-width: 200px;
+    aspect-ratio: 16/9;
+    border: 2px solid rosybrown;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 600;
+}
+
+.price{
+    color: #27aedb;
+}
